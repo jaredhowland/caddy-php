@@ -6,4 +6,4 @@ ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/do
 
 RUN apk add git nano nodejs npm && \
     chmod +x /usr/local/bin/install-php-extensions && \
-    install-php-extensions bcmath gd mysqli pdo_mysql zip @composer
+    install-php-extensions bcmath gd intl mysqli pdo_mysql zip @composer
