@@ -11,6 +11,7 @@ docker pull ghcr.io/jaredhowland/caddy-php:latest
 # List of Extensions
 * bcmath
 * gd
+* intl
 * mysqli
 * pdo_mysql
 * zip
